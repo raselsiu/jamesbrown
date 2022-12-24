@@ -109,29 +109,50 @@
 
 
 @media (min-width: 576px) and (max-width: 639.98px) {
-    .heading h1 {
-        font-size: 25px;
+
+
+.heading,
+    .subheading {
+        width: 80%;
+        text-align: center;
     }
-    .subheading h3 {
-        font-size: 11px;
+
+.heading h1 {
+    font-size: 35px;
+}
+.subheading h3 {
+    font-size: 16px;
+}
+
+    .text_middle_main {
+        top: 52%;
+        width:70%;
     }
-    .text_middle_main p {
-        font-size: 10px;
-        line-height: 20px;
+    
+.text_middle_main p {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.site_btn {
+    width: 80%;
+    text-align: center;
+}
+
+.site_btn a {
+        padding: 13px 25px;
+        font-size: 20px;
     }
-    .site_btn a {
-        padding: 13px 40px;
-        font-size: 12px;
-    }
+
+
+
     .subheading::before {
         display: none;
     }
     span.dot {
         font-size: 22px;
     }
-    .text_middle_main {
-        top: 52%;
-    }
+
 }
 
 
@@ -139,28 +160,44 @@
 
 
 @media (min-width: 640px) and (max-width: 799.98px) {
+.heading,
+    .subheading {
+        width: 80%;
+        text-align: center;
+    }
+
     .heading h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
+
     .subheading h3 {
-        font-size: 11px;
+        font-size: 16px;
     }
+
+    .text_middle_main {
+        top: 52%;
+        width: 70%;
+    }
+
     .text_middle_main p {
-        font-size: 10px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 40px;
     }
+
+    .site_btn {
+        width: 80%;
+        text-align: center;
+    }
+
     .site_btn a {
-        padding: 13px 40px;
-        font-size: 12px;
+        padding: 13px 25px;
+        font-size: 20px;
     }
     .subheading::before {
         display: none;
     }
     span.dot {
         font-size: 22px;
-    }
-    .text_middle_main {
-        top: 52%;
     }
 }
 
@@ -283,7 +320,7 @@
 }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 799.98px) {
     .inner_page {
     height: 100vh;
     width: 100%;
@@ -292,7 +329,7 @@
     background-repeat: no-repeat;
 }
 }
-@media (min-width: 576px){
+@media (min-width: 800px){
     .inner_page {
     height: 100vh;
     width: 100%;
